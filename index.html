@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .custom-img {
+      width: 100%;
+      height: 350px; /* Sesuaikan tinggi dengan kebutuhan Anda */
+      object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Music Page</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#judul">Ngamen</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#music">Playback Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#deskripsi">Deskripsi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#video">Video Klip</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#foto">Foto-foto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Halaman 2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <section id="judul">
+    <h2>Ngamen</h2>
+    <!-- Konten judul disini -->
+  </section>
+  
+  <section id="music" class="mt-4">
+    <h2>Playback Music</h2>
+    <!-- Konten playback music disini -->
+    <audio controls>
+      <source src="ngamen5.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section id="video" class="mt-4">
+    <h2>Video Klip</h2>
+    <!-- Konten video klip disini -->
+    <div class="row">
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/fbATTkzQOQw?autoplay=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+        <p>
+          Ngamen 5" adalah salah satu lagu yang populer dalam genre musik campursari,
+           yang berasal dari Jawa, Indonesia. Lagu ini dipopulerkan 
+           oleh grup musik Campursari Sangkuriang asal Jawa Tengah. 
+           Diciptakan dengan sentuhan modern yang khas, lagu ini 
+           menggabungkan unsur-unsur tradisional Jawa dengan alunan
+            musik yang segar dan kontemporer. Liriknya mengisahkan 
+            tentang kisah asmara yang kental dengan nuansa kehidupan
+             sehari-hari. Dengan irama yang menghentak dan melodi 
+             yang mudah diingat, "Ngamen 5" telah menjadi salah satu
+              lagu yang sering menghiasi acara-acara hiburan dan
+               perayaan di berbagai kesempatan.
+               Keunikan musik campursari, yang memadukan
+                instrumen tradisional Jawa seperti kendang, 
+                suling, dan gamelan dengan instrumen modern 
+                seperti gitar dan drum, memberikan nuansa 
+                yang unik dan menyegarkan bagi pendengarnya. 
+                "Ngamen 5" menjadi simbol dari kekayaan budaya
+                 Indonesia yang terus berkembang dalam arus 
+                 zaman.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="foto" class="mt-4">
+    <h2>Foto-foto</h2>
+    <!-- Konten foto-foto disini -->
+    <div class="row">
+      <div class="col-md-4">
+        <img src="y1.png" class="custom-img rounded mx-auto d-block" alt="Foto 1">
+      </div>
+      <div class="col-md-4">
+        <img src="y2.png" class="custom-img rounded mx-auto d-block" alt="Foto 2">
+      </div>
+      <div class="col-md-4">
+        <img src="y3.png" class="custom-img rounded mx-auto d-block" alt="Foto 3">
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- Tombol menuju halaman 2 -->
+<div class="container mt-4">
+  <a href="page2.html" class="btn btn-primary">Ke Halaman 2</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
